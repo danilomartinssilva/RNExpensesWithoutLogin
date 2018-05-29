@@ -89,10 +89,9 @@ export default class Login extends Component{
             })
             */
               //  console.log(email,senha);
-            auth.signInWithEmailAndPassword(email, senha).catch(function(error) {                
-                    Actions.App();
+            auth.signInWithEmailAndPassword(email, senha).catch(function(error) {                                    
+
                     
-                
               });
               
              

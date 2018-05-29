@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { today } from '../util/today';
 import { database } from '../util/firebase';
 
-export default class Add extends Component{
+export default class AddScreen extends Component{
 
     constructor(props){
         super(props);        

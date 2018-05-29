@@ -6,7 +6,7 @@ import _ from 'lodash';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { today } from '../util/today';
 
-export default class List extends Component {
+export default class ListScreen extends Component {
 
     state = {
         expenses: [],
@@ -23,6 +23,7 @@ export default class List extends Component {
     }
     componentWillUnmount() {
         database.off();
+        
     }
 
     componentDidMount() {
